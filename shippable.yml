@@ -14,8 +14,3 @@ before_script:
 
 script:  
   py.test --cov-report xml --cov openpyxl --junit-xml=shippable/testresults/results.xml
-
-notifications:
-  email:
-    recipients:
-      - charlie.clark@clark-consulting.eu
